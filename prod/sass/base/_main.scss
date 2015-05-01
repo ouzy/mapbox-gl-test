@@ -1,0 +1,49 @@
+/* MAIN AREAS */
+
+body {
+	background-image: url("/img/glitch.gif");
+	font-family: 'Anonymous Pro' ;
+	color: black;
+	font-size: 16px;
+}
+
+*{
+	&:focus {
+		outline: none;
+	}
+}
+#map {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	height: 80%;
+
+}
+
+.fly-btn {
+	padding: 5px;
+	background-color: #F74A3D;
+	transition: all .1s;
+	color: white;
+	font-weight: bold;
+	margin-bottom: .4rem;
+	display: inline-block;
+	cursor: pointer;
+	&:hover {
+		background-color: darken(#F74A3D, 15%);
+	}
+}
+/*
+  (TEXT) PARAMS
+  =================
+  1. Namespace
+  2. Intensity
+  3. Text color
+  4. Background color (flat)
+  5. Highlight #1 color
+  6. Highlight #2 color
+  7. Width (px)
+  8. Height (px)
+*/
+ 
